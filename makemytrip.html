@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mmt.css">
+</head>
+
+<body class="image">
+    <header>
+        <!-- <div class="container image"> -->
+        <!-- <img src="sea.jpeg" alt="img" width="1500" height="500"> -->
+        <nav class="logoimage">
+
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Makemytrip_logo.svg" alt="" width="100" height="200"> -->
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Makemytrip_logo.svg" alt=""
+                    width="100"></a>
+            <ul>
+                <li><a href="">Flights</a></li>
+                <li><a href="">Hotels</a></li>
+                <li><a href="">villas</a></li>
+                <li><a href="">Trains</a></li>
+                <li><a href="">Buses</a></li>
+                <li><a href="">cabs</a></li>
+            </ul>
+        </nav>
+        <div class="links">
+            <button>
+            <a href="#">login or create account</a>
+            </button>
+        </div>
+        <div class="link">
+            <button>
+            <a href="#">IN|ENG|INR</a>
+        </button>
+        </div>
+        
+
+    </header>
+    <div class="search-container">
+        <form>
+            <div class="trip-type">
+                <input type="radio" id="one-way" name="trip" checked>
+                <label for="one-way">One Way</label>
+                <input type="radio" id="round-trip" name="trip">
+                <label for="round-trip">Round Trip</label>
+                <input type="radio" id="multi-city" name="trip">
+                <label for="multi-city">Multi City</label>
+            </div>
+
+            <div class="search-fields">
+                <div class="from-to">
+                    <label for="from">From</label>
+                    <input type="text" id="from" value="Delhi" readonly>
+                    <span>DEL, Delhi Airport India</span>
+                </div>
+
+                <div class="from-to">
+                    <label for="to">To</label>
+                    <input type="text" id="to" value="Bengaluru" readonly>
+                    <span>BLR, Bengaluru International Airport</span>
+                </div>
+
+                <div class="date-field">
+                    <label for="departure">Departure</label>
+                    <input type="date" id="departure">
+                </div>
+
+                <div class="date-field">
+                    <label for="return">Return</label>
+                    <input type="text" id="return" placeholder="Tap to add a return date for bigger discounts" readonly>
+                </div>
+
+                <div class="travellers-class">
+                    <label for="travellers">Travellers & Class</label>
+                    <input type="text" id="travellers" value="1 Traveller, Economy/Premium Economy" readonly>
+                </div>
+            </div>
+
+            <div class="special-fare">
+                <label>Select a special fare</label>
+                <div class="fare-options">
+                    <button type="button" class="regular active">Regular</button>
+                    <button type="button" class="student">Student</button>
+                    <button type="button" class="senior-citizen">Senior Citizen</button>
+                    <button type="button" class="armed-forces">Armed Forces</button>
+                    <button type="button" class="doctor-nurses">Doctor and Nurses</button>
+                </div>
+            </div>
+
+            <button type="submit" class="search-button">SEARCH</button>
+        </form>
+    </div>
+    <div class="mid"><h1>(↓)  Explore more  (↓)</h1></div>
+
+    <div class="list">
+        <div class="bora"><a href="#"></a><img src="bora-bora.jpeg" alt="bora bora" width="400px">
+        <h1>Bora Bora</h1>
+        </div>
+        <div class="paris"><img src="paris.jpeg" alt="paris" width="400px"height="270px">
+        <h1>Paris</h1>
+        </div>
+        <div class="tokyo"><img src="tokyo.jpg" alt="tokyo" width="400px" height="280px">
+        <h1>Tokyo</h1>
+        </div>
+        <div class="sydney"><img src="sydney.jpeg" alt="sydney" width="400px">
+        <h1>Sydney</h1>
+        </div>
+        <div class="bali"><img src="bali.jpeg" alt="bali" width="400px">
+        <h1>Bali</h1>
+        </div>
+        <div class="london"><img src="london.jpeg" alt="london" width="400px">
+        <h1>London</h1>
+        </div>
+    </div>
+</body>
+
+</html>
